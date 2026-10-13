@@ -1,0 +1,29 @@
+# Build outputs
+build/
+DerivedData/
+.swiftpm/
+
+# macOS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Xcode user state
+*.xcuserdata/
+*.xcuserstate
+
+# Local environment overrides
+.env
+.env.*
+!.env.example
+
+# Local AI / assistant context and generated planning notes
+.pi/
+.ai/
+.claude/
+.cursor/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+SYSTEM_DESIGN.md
+TECHNICAL_SPEC.md
